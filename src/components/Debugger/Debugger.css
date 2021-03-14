@@ -1,0 +1,26 @@
+.debugger-titlebar {
+  display: flex;
+  height: 26px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.content {
+  padding: 5px 26px;
+}
+
+code {
+  font-family: consolas;
+  white-space: pre-line;
+}
+
+.debugger-titlebar span {
+  font-size: 12px;
+}
+
+.debugger-titlebar i {
+  margin: 0 10px;
+  font-size: 15px;
+  cursor: pointer;
+}

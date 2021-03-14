@@ -1,0 +1,30 @@
+.toolbar {
+  height: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #f8f8f8; */
+  /* box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.26); */
+  z-index: 99;
+  position: relative;
+}
+
+.rs-nav-waterline {
+  border: none !important;
+}
+
+.toolbar .rs-nav,
+.toolbar .processes {
+  width: 100%;
+}
+
+.toolbar .processes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+/* .toolbar .processes .rs-loader-content {
+  color: #8e8e93;
+} */

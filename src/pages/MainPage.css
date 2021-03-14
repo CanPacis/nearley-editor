@@ -1,0 +1,36 @@
+.rs-sidenav-default {
+  background-color: transparent !important;
+}
+
+.rs-list-item {
+  background-color: transparent;
+}
+
+.main .resize {
+  top: 36px !important;
+}
+
+.main .nested-resize .resize {
+  top: 0 !important;
+}
+
+.main-editor-wrapper {
+  position: relative;
+}
+
+.main-editor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+}
+
+.main-editor.active {
+  display: block;
+}
+
+.editor-wrapper {
+  z-index: 999;
+  position: relative;
+}

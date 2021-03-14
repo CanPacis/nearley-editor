@@ -1,0 +1,118 @@
+.welcome-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  /* background-color: #F8F8F8; */
+  background-color: #0f131a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.welcome-wrapper .welcome {
+  font-family: Roboto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.welcome-wrapper .welcome > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.welcome-wrapper .welcome .message {
+  font-family: Oswald;
+  line-height: 1.1 !important;
+  font-size: 64px;
+  font-weight: 400;
+  user-select: none;
+  cursor: inherit;
+}
+
+.welcome-wrapper .welcome .features {
+  font-size: 14px;
+  margin-top: 18px;
+  padding: 0;
+  width: 50%;
+  /* color: #cacaca; */
+}
+
+.welcome-wrapper .welcome .cta {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.welcome-wrapper .welcome .cta button:first-child {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-wrapper .welcome .cta button {
+  margin: 8px 0;
+  min-width: 280px;
+  min-height: 46px;
+}
+
+.welcome-wrapper .welcome .features li {
+  margin-top: 10px;
+}
+
+.welcome-wrapper .editor {
+  height: 80%;
+  position: relative;
+  width: 100%;
+}
+
+.welcome-wrapper .editor img {
+  height: 100%;
+  position: absolute;
+  border-radius: 4px;
+  user-select: none;
+  box-shadow: 0 40px 30px rgba(0, 0, 0, 0.26);
+}
+
+.welcome-wrapper .editor img:last-child {
+  opacity: 0;
+  /* animation: fade 20s infinite; */
+}
+
+@keyframes fade {
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,46 @@
+/* :root {
+  --theme-bg: #211E1E;
+  --theme-bg-light: #353030;
+  --theme-bg-selection: #73597E80;
+  --theme-text: #f8f8f8;
+  --theme-text-light: #8e8e93;
+} */
+
+body {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+::selection {
+  background-color: rgba(112, 184, 255, 0.2);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0F131A;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1A1D24;
+}
+
+.container-after-titlebar {
+  height: calc(100vh - 30px);
+  overflow: hidden !important;
+}
+
+span.link {
+  color: #3498ff;
+  cursor: pointer;
+}
+
+.rs-alert-container,
+.rs-notification {
+  margin-top: 45px !important;
+}
